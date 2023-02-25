@@ -34,27 +34,4 @@
   }
 }
 
-@media #{$rt-mobile} {
-  .#{$rt-namespace}__toast-container {
-    width: 100vw;
-    padding: 0;
-    left: 0;
-    margin: 0;
-    &--top-left,
-    &--top-center,
-    &--top-right {
-      top: 0;
-      transform: translateX(0);
-    }
-    &--bottom-left,
-    &--bottom-center,
-    &--bottom-right {
-      bottom: 0;
-      transform: translateX(0);
-    }
-    &--rtl {
-      right: 0;
-      left: initial;
-    }
-  }
-}
+
